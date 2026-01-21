@@ -1129,32 +1129,7 @@ button {
   margin-bottom: 1.5rem;
 }
 
-.footer-social {
-  display: flex;
-  gap: 0.75rem;
-}
-
-.footer-social a {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: var(--dark-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gray-400);
-  transition: all var(--transition);
-}
-
-.footer-social a:hover {
-  background: var(--primary);
-  color: var(--white);
-}
-
-.footer-social svg {
-  width: 20px;
-  height: 20px;
-}
+/* .footer-social removed — social media icons were removed from the footer */
 
 .footer-column h4 {
   font-size: 1rem;
@@ -1326,9 +1301,7 @@ button {
     max-width: 100%;
   }
   
-  .footer-social {
-    justify-content: center;
-  }
+  /* .footer-social responsive override removed */
   
   .footer-bottom {
     flex-direction: column;
